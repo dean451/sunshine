@@ -514,3 +514,8 @@ fieldset[disabled] .btn-success.active {
 div#maincontent {
   outline: none;
 }
+
+#hero {
+  width: 75%;
+  height: 75%;
+}
