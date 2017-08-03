@@ -17,6 +17,7 @@
 !/log/.keep
 !/tmp/.keep
 *.yml
+/public/system/*
 
 # Ignore Byebug command history file.
 .byebug_history
