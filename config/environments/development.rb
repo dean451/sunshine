@@ -53,8 +53,7 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   config.paperclip_defaults = {
   :storage => :s3,
-  :s3_host_name => 'REMOVE_THIS_LINE_IF_UNNECESSARY',
-  :bucket => 'sunshine-feels'
+  bucket: ENV.fetch('AWS_S3_BUCKET')
   }
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 end
