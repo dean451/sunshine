@@ -8,10 +8,20 @@ class PostsController < ApplicationController
     @posts = Post.order("created_at desc").limit(4).offset(1)
   end
 
+  def create
+    @post = Post.new(post_params)
+
+    if @post.save
+      redirect_to @post, notice: 'Image was successfully saved.'
+     else
+       render action: 'new'
+    end
+  end
+
   private
 
   def post_params
-    params.require(:post).permit(:title, :body)
+    params.require(:post).permit(:title, :body, :image)
   end
 
 end
