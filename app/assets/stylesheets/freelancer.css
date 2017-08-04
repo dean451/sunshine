@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: 'Tangerine', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Courgette", cursive !important;
   overflow-x: hidden;
   margin-bottom: 0;
 }
@@ -32,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Coronet", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Courgette", cursive;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -59,11 +59,11 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
+  background-color: #ec9716;
   color: white;
 }
 hr.star-primary {
-  border-color: #2C3E50;
+  border-color: #0771a4;
 }
 hr.star-primary:after {
   background-color: white;
@@ -87,7 +87,7 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Coronet", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Courgette", cursive !important;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
@@ -110,8 +110,7 @@ header .intro-text .skills {
 }
 .navbar-custom {
   background: #2C3E50;
-  font-family: "Tangerine", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  font-family: "Courgette", cursive !important;
   font-weight: 700;
   border: none;
 }
