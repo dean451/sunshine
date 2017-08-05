@@ -82,7 +82,6 @@ Rails.application.configure do
   end
 
   config.paperclip_defaults =
-  s3_host_name: "s3-#{ENV['AWS_REGION']}.amazonaws.com",
   storage: :s3,
   s3_region: 'us-west-2',
   s3_credentials: {
@@ -91,6 +90,7 @@ Rails.application.configure do
     secret_access_key: ENV.fetch('AWS_SECRET_ACCESS_KEY'),
     s3_region: ENV.fetch('AWS_REGION'),
     }
+  s3_host_name: "s3-#{ENV['AWS_REGION']}.amazonaws.com"
   }
 
 
