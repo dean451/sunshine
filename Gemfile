@@ -12,11 +12,9 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem 'active_skin'
 gem 'paperclip', '~> 4.3.6'
-gem 'aws-sdk', '< 2.0'
-
+gem 'aws-sdk', '~> 2.3'
 gem 'dotenv-rails'
-gem 'aws-s3'
-gem 'aws-sdk-v1'
+
 
 
 
