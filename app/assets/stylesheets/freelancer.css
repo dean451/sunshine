@@ -8,6 +8,14 @@ html {
   margin-bottom: 0;
 }
 
+.site_title {
+  display: block;
+}
+
+#site_title {
+  display: block;
+}
+
 body {
   font-family: "Courgette", cursive !important;
   overflow-x: hidden;
