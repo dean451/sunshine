@@ -32,7 +32,7 @@
                 <% @posts.each do |post| %>
                 <div class="col-sm-4 portfolio-item">
                 <%= link_to post_path(post) do %>
-                  <%= image_tag post.image, class: 'img-responsive' %>
+                  <%= image_tag post.image(:medium), class: 'img-responsive' %>
                 <% end %>
                 </div>
             <% end %>
