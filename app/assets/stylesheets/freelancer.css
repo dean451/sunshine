@@ -17,7 +17,9 @@ html {
 }
 
 body {
-  font-family: "Courgette", cursive !important;
+  font-family: acta-poster-swashes, sans-serif;
+  font-style: normal;
+  font-weight: 400; 
   overflow-x: hidden;
   margin-bottom: 0;
 }
