@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  font-family: 'Allura', cursive;
+  font-family: 'Akronim', cursive;
   font-style: normal;
   font-weight: 400;
   overflow-x: hidden;
@@ -42,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Allura', cursive;
+  font-family: 'Akronim', cursive;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -97,7 +97,7 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: 'Allura', cursive;
+  font-family: 'Akronim', cursive;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
@@ -120,7 +120,7 @@ header .intro-text .skills {
 }
 .navbar-custom {
   background: #2C3E50;
-  font-family: 'Allura', cursive;
+  font-family: 'Akronim', cursive;
   font-weight: 700;
   border: none;
 }
