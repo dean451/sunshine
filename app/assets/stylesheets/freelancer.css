@@ -61,7 +61,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Akronim', cursive;
+  font-family: 'Bilbo+Swash+Caps', cursive;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -116,7 +116,7 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: 'Akronim', cursive;
+  font-family: 'Bilbo+Swash+Caps', cursive;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
@@ -139,7 +139,7 @@ header .intro-text .skills {
 }
 .navbar-custom {
   background: #2C3E50;
-  font-family: 'Akronim', cursive;
+  font-family: 'Bilbo+Swash+Caps', cursive;
   font-weight: 700;
   border: none;
 }
